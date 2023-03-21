@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -23,7 +25,7 @@
       }
     },
     "web": {
-      "bundler": "webpack",
+      "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
     }
   }

@@ -1,12 +1,12 @@
-import { VStack, Text, ScrollView } from "native-base";
+import { View, Text, ScrollView } from "react-native";
 
 
 export default function DashboardScreen() {
   return (
     <ScrollView>
-      <VStack space="md" alignItems="center" padding="4">
+      <View style={{ padding: 4 }}>
         <Text>Hello world</Text>
-      </VStack>
+      </View>
     </ScrollView>
   );
 }
